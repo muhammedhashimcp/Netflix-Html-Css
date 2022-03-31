@@ -1,0 +1,474 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    width: 100%;
+    height: 4300px;
+    background-color: #222;
+
+}
+
+/* home page start here */
+
+.banner-container{
+    width: 100%;
+    height: 110vh;
+    margin-top: 0;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,.7),rgba(0,0,0,0.6)) ,url(netflix.jpg);
+    background-size: 100% 100% ;
+
+
+}
+
+.header-div{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    padding-left: 3%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    width: 175px;
+    height: 50px;
+    margin-right: auto;
+}
+
+.language{
+    /* background-image: url(1200px-Globe_icon.svg.png); */
+    width: 90px;
+    height: 35px;
+    border-color: white;
+    border-radius: 3px;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+    padding: 5px 5px;
+    margin-right: 32px;
+}
+
+.signin-button{
+    width: 80px;
+    height: 35px;
+    font-size: 18px;
+    color:white;
+    padding: 2px 2px;
+    margin-right: 4%;
+    background-color: rgb(221, 14, 14);
+    border-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.center-div{
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.main-content{
+    margin-top: 250px;     border-bottom: 8px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    
+}
+
+.main-title{
+    color: white;
+    font-size: 65px;
+    line-height: 65px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+
+.sub-title{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.sub-content{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+
+.home-email{
+
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.email{
+    width: 500px;
+    height: 65px;
+    font-size: 20px;
+    border: 0;
+    border-color: white;
+   
+}
+
+.startedbtn{
+    width: 250px;
+    height: 65px;
+    color: white;
+    background: #f40612;
+    border:rgb(143, 5, 5);
+    border-width: 3px;
+    border-radius: 3px;
+    font-size: 28px;
+    float: left;
+
+
+}
+
+/* Home page ends here */
+
+/* story cards start here */
+
+/* storycard enjoy start here */
+
+.storycard-enjoy{
+    margin-top: 8px;
+    width: 100%;
+    height: 475px;
+    background-color: black; 
+}
+
+.text-section{
+    margin-top: 150px;
+    width: 50%;
+    height: 275px;
+    padding-left: 200px;
+    float: left;   
+
+}
+.image-section{
+    width: 40%; 
+    height: 100%; 
+    float: left;
+}
+.image{
+
+    width: 520px;
+    height: 400px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+.video{
+   
+    width: 400px;
+    height: 410px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}       
+
+.storycard-title{
+
+    font-size: 50px;
+    
+    color: white;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    
+
+}
+
+.storycard-content{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-top: 27px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+/* storycard enjoy end here */
+
+/* storycard download start here */
+
+.storycard-download{
+  
+    margin-top: 8px;
+    width: 100%;
+    height: 475px;
+    display: flex;
+    flex-direction: row;
+    background-color: black; 
+}
+.image-download{
+    width: 50%; 
+    height: 475px; 
+}
+
+
+.mobile-image{
+    margin-top: 50px;
+    width: 450px;
+    height: 400px;
+    margin-left: 160px;
+ 
+}
+.text-download{
+    margin-top: 130px;
+    width: 40%;
+    height: 100%;
+    float: left; 
+     
+}
+/* storycard download end here */
+
+/* storycard watch everywhere start here */
+.storycard-watcheverywhere{
+
+    margin-top: 8px;
+    width: 100%;
+    height: 525px;
+    display: flex;
+    flex-direction: row;
+    background-color: black; 
+
+}
+
+.text-watch{
+    margin-top: 180px;
+    width: 50%;
+    line-height: 50px;
+    height: 275px;
+    padding-left: 200px;
+    float: left;   
+
+
+}
+
+.watcheverywhere-image{
+    width: 40%; 
+    height: 100%; 
+    float: left;
+
+}
+.image-watch{
+
+    width: 540px;
+    height: 400px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+
+}
+
+.video-watch{
+    width: 345px;
+    height: 345px;
+    margin-top: 20px;
+    margin-left: 150px;
+
+}
+
+/* storycard watch everywhere end here */
+
+/* storycard child profile start here */
+
+.storycard-childprofile{
+    margin-top: 8px;
+    width: 100%;
+    height: 525px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;   
+}
+
+.imagediv-childprofile{
+    width: 40%; 
+    height: 100%; 
+    float: left;
+
+}
+
+.childprofile-image{
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-bottom: 10px;
+
+
+}
+.textdiv-childprofile{
+    margin-top: 160px;
+    width: 50%;
+    line-height: 50px;
+    height: 275px;
+    padding-left: 150px;
+    float: left;  
+}
+
+/* storycard child profile end here */
+
+/* FAQ section start  here  */
+
+.FAQ-container{
+
+    margin-top: 8px;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;   
+}
+.FAQ-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.FAQ-title{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+.questions{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    justify-content: left;
+    margin:  0 auto ;
+    margin-bottom: 20px;
+  
+
+}
+
+.FAQ{
+    width: 900px;
+    height: 80px;
+    background-color: #303030;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    display: flex; 
+    justify-items: left;
+    margin-bottom: 5px;
+    border: 0;
+    cursor: pointer;
+    
+
+}
+
+/* FAQ section  end here */
+
+/* Footer start  here  */
+
+
+.footer{
+    width: 1517px;
+    height: 408px;
+    background-color: black;
+    margin-top: 8px;
+   
+}
+.footerbox{
+    width: 900px;
+    height: 100px;
+    /* background-color: #f40612; */
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 50px; */
+    margin-left: 200px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+
+}
+.footer.div{
+    height: 100px;
+    width: 400px;
+    margin-left: 100px;
+    line-height: 30px;
+
+}
+
+.helpline{
+    font-size: 20px;
+    /* position: absolute; */
+    height: 30px;
+    width: 500px;
+    margin-left: 310px;
+    color: #727070;
+    padding-top: 100px;
+
+}
+
+.footer a{
+    color: #727070;
+    text-decoration: none;
+
+}
+
+
+ul{
+    line-height: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: 15px;
+}
+.footer-div a{
+   
+    color: #727070;
+    
+}
+.footerLast{
+    margin-left: 310px;
+    position: absolute;
+    margin-top: 50px;
+    
+}
+.last{
+    color: #727070;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+/* Footer ends here  */
